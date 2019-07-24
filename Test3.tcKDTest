@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{D914B16A-4A98-4218-A984-9C45618E6E07}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+				<Data Description="Runs the &quot;TestEnvironment_TD32&quot; tested application." TestedApp="TestEnvironment_TD32">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Maximizes the &apos;%n&apos; window." Action="Maximize" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p2, %p3) within the %p1 item of the &apos;%n&apos; bar." Action="ClickItemXY" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="dxRibbonTab1|[0]|Форма с PivotGrid" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="48" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="13" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.dxRibbon" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="64" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="39" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object with the right mouse button." Action="ClickR" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="64" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="39" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">
+				<Data Description="Moves the mouse cursor to the menu item specified and then simulates a single click." Action="Click" MenuType="2" PreferredMenu="PopupMenu">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Show Field List" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="505" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="18" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="753" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="462" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="593" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="15" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="631" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="470" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the &apos;%n&apos; window." Action="Close" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="274" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="15" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="-267" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="131" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="468" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="19" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="-281" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="119" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="97" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="44" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="473" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="19" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="-363" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="481" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="12" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="-340" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="-3" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object with the right mouse button." Action="ClickR" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="156" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="34" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">
+				<Data Description="Moves the mouse cursor to the menu item specified and then simulates a single click." Action="Click" MenuType="2" PreferredMenu="PopupMenu">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Show Field List" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Square" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values IsEnum="True">
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxFieldListListBox;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Selects the %p1 item of the &apos;%n&apos; combo box." Action="ClickItem" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="Data Area" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxGroupBox.TcxComboBox" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxGroupBox.TcxButton" />
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="ShopId" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values IsEnum="True">
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxFieldListListBox;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Selects the %p1 item of the &apos;%n&apos; combo box." Action="ClickItem" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="Row Area" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxGroupBox.TcxComboBox" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxGroupBox.TcxButton" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the &apos;%n&apos; window." Action="Close" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm" />
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="City A Shop" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values IsEnum="True">
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest;" />
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="МОренбург" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values IsEnum="True">
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridFilterPopupWindow.TcxPivotGridFilterPopupListBox.TcxCustomInnerCheckListBox;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="3" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="5" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridFilterPopupWindow.TcxPivotGridFilterPopupListBox.TcxCustomInnerCheckListBox" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="3" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="5" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridFilterPopupWindow.TcxPivotGridFilterPopupListBox.TcxCustomInnerCheckListBox" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="45" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridFilterPopupWindow.TcxPivotGridFilterPopupListBox.TcxCustomInnerCheckListBox" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxPivotGridFilterPopupWindow.TcxButton" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="11" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="114" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="28" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="133" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="564" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="39" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="885" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="114" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="300" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="16" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="3" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit.TcxCustomInnerTextEdit" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Caption" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="300" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="1002" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="149" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="600" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit3.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="27" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="2" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit3.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit3.TcxCustomInnerTextEdit" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Caption" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="600" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="1105" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="171" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="25" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="6" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit3.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="25" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="7" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="-26" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit3.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="400" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit3.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="26" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="7" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit3.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit3.TcxCustomInnerTextEdit" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Caption" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="400" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="147" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="591" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{EA44103A-BF04-4444-B055-0712D95486E5}" />
+	<Parameters Key="{7BBC8F31-4589-4BA6-A061-A217E19EF0F5}" />
+</Root>
